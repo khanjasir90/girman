@@ -8,6 +8,7 @@ This project is a mobile application built with **Flutter**, **Dart**, **Firebas
 - **Dart**
 - **Firebase**
 - **BLoC (Business Logic Component)**
+- **Clean Code Archtechture**
 
 ## Features
 
@@ -34,7 +35,7 @@ This project is a mobile application built with **Flutter**, **Dart**, **Firebas
 
 ### 4. User Data
 - The user data is fetched from FireStore(Firebase)
-- The JSON file contains user information that is loaded locally and displayed based on the user's search input.
+- The JSON file contains user information that is loaded from firebase and displayed based on the user's search input.
 - Edge cases such as invalid inputs or no results found are handled gracefully.
 
 
