@@ -46,3 +46,29 @@ This project is a mobile application built with **Flutter**, **Dart**, **Firebas
 
 ![Home Screen](demo/girman_demo_2.jpg)
 ![Home Screen](demo/girman_demo_1.jpg)
+
+## Installation Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/khanjasir90/girman.git
+cd your-repository
+
+
+# Add Google-Services.json file in android/app directory
+
+# Initial Firebase with your following parameters.
+
+const FirebaseOptions(
+  appId: '',
+  apiKey: '',
+  projectId: '',
+  messagingSenderId: '',
+  storageBucket: '',
+);
+
+# Run following command
+
+flutter pub get
+
+flutter run
