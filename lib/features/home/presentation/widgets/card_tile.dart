@@ -44,7 +44,7 @@ class GirmanCardTile extends StatelessWidget {
     ],
   );
 
-  Widget get getPhoneNo => Column(
+  Widget getPhoneNo(BuildContext context) => Column(
     mainAxisAlignment: MainAxisAlignment.start,
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
@@ -62,7 +62,7 @@ class GirmanCardTile extends StatelessWidget {
         ],
       ),
       const Gap(5),
-      const Text('Available on Phone')
+      Text('Available on Phone', style: context.labelSmall,)
     ],
   );
 
@@ -71,7 +71,7 @@ class GirmanCardTile extends StatelessWidget {
     return Container(
       decoration: getBoxDecoration,
       margin: const EdgeInsets.symmetric(horizontal: PaddingUtils.paddingExtraLarge, vertical: PaddingUtils.paddingMedium),
-      padding: const EdgeInsets.all(PaddingUtils.paddingMedium),
+      padding: const EdgeInsets.all(PaddingUtils.paddingSmall),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -87,7 +87,7 @@ class GirmanCardTile extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              getPhoneNo,
+              getPhoneNo(context),
               const Spacer(),
               GirmanButton(onPressed: () => showDetails(context),),
             ],

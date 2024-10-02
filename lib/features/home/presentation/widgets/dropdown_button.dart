@@ -83,6 +83,7 @@ class GirmanDropDownButton extends StatelessWidget {
     if (await canLaunchUrl(emailLaunchUri)) {
       await launchUrl(emailLaunchUri);
     } else {
+      await launchUrl(emailLaunchUri);
       log('Could not launch $emailLaunchUri');
     }
   }
