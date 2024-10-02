@@ -38,5 +38,11 @@ This project is a mobile application built with **Flutter**, **Dart**, **Firebas
 - The JSON file contains user information that is loaded from firebase and displayed based on the user's search input.
 - Edge cases such as invalid inputs or no results found are handled gracefully.
 
+# 5.Screen Recording
+
+[!Click here to see the Screen Recording](https://drive.google.com/file/d/1x9wrq2auuRzKjhGfBDsJOwp2tZCA4gq3/view?usp=sharing)
 
 ### 5. Screen Shots
+
+![Home Screen](demo/girman_demo_2.jpg)
+![Home Screen](demo/girman_demo_1.jpg)
